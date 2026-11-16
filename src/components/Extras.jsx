@@ -67,19 +67,19 @@ export default function Extras() {
             </a>
           </div>
 
-          {/* Desktop connecting dashed curved arrow */}
-          <svg className="arrow" viewBox="0 0 380 110" fill="none" aria-hidden="true">
+          {/* Desktop connecting dashed curved arrow (compact short pointer) */}
+          <svg className="arrow" viewBox="0 0 160 60" fill="none" aria-hidden="true">
             <path
-              d="M4 96C70 100 120 84 190 66S310 34 366 16"
+              d="M6 46C45 48 85 36 144 14"
               stroke="currentColor"
-              strokeWidth="3"
-              strokeDasharray="12 10"
+              strokeWidth="2.5"
+              strokeDasharray="7 6"
               strokeLinecap="round"
             />
             <path
-              d="M350.1 14.2L366 16L355.6 28.2"
+              d="M130 13L145 14L137 25"
               stroke="currentColor"
-              strokeWidth="3"
+              strokeWidth="2.5"
               strokeLinecap="round"
               strokeLinejoin="round"
             />

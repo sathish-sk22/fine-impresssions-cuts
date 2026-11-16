@@ -2774,9 +2774,9 @@ h3 { font-size: clamp(1.3rem, 2.2vw, 1.65rem); line-height: 1.15; font-weight: 6
   .opt .arrow {
     display: block;
     position: absolute;
-    right: -64px;
-    bottom: 4px;
-    width: min(380px, calc(100% - 180px));
+    right: -24px;
+    bottom: 6px;
+    width: clamp(120px, 16vw, 160px);
     height: auto;
     overflow: visible;
     pointer-events: none;

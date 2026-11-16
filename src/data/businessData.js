@@ -5,19 +5,20 @@
 
 export const BUSINESS = {
   name: "Fine Impressions and Cuts",
-  tagline: "Laser marking · Embossing · Engraving",
-  headline: "Permanent marks on metal and leather.",
+  tagline: "20+ Years of Manufacturing Expertise",
+  headline: "2D & 3D CNC Dies, Leather Embossing & Laser Marking.",
   description:
-    "We mark, emboss and engrave logos, names and serial numbers for shops, factories and gift buyers. One piece or a full batch.",
-  phone: "+91 76677 24242",
-  phoneAlt: "+91 73050 20168",
-  landline: "044-43861376",
+    "20 years of expertise in manufacturing 2D & 3D CNC engraving dies, leather embossing, hot foil stamping for leather industries, and precision laser marking.",
+  phone: "+91 73050 20168",
+  phoneAlt: "",
+  landline: "044 43861376",
   email: "embossingdies@gmail.com",
-  whatsapp: "917667724242",
-  address: "No. 79, FINE IMPRESSIONS & CUTS, 13, Mugappair Rd, Mannurpet, Padi, Chennai, Tamil Nadu 600058",
-  hours: "Mon - Sat: 9:30 AM - 8:00 PM",
-  mapsEmbedUrl: "https://maps.google.com/maps?q=No.+79%2C+13%2C+Mugappair+Rd%2C+Mannurpet%2C+Padi%2C+Chennai%2C+Tamil+Nadu+600058&t=&z=16&ie=UTF8&iwloc=&output=embed",
-  mapsLink: "https://www.google.com/maps/search/?api=1&query=No.+79%2C+13%2C+Mugappair+Rd%2C+Mannurpet%2C+Padi%2C+Chennai%2C+Tamil+Nadu+600058"
+  whatsapp: "917305020168",
+  address: "79/13, Mugappair Road, Padi, Chennai, Tamil Nadu, India – 600 050.",
+  hours: "Mon – Sat: 9:00 AM – 8:00 PM",
+  mapsEmbedUrl: "https://maps.google.com/maps?q=79%2F13%2C+Mugappair+Road%2C+Padi%2C+Chennai%2C+Tamil+Nadu+600050&t=&z=16&ie=UTF8&iwloc=&output=embed",
+  mapsLink: "https://www.google.com/maps/search/?api=1&query=79%2F13%2C+Mugappair+Road%2C+Padi%2C+Chennai%2C+Tamil+Nadu+600050",
+  mapsDirectionsUrl: "https://www.google.com/maps/dir/?api=1&destination=79%2F13%2C+Mugappair+Road%2C+Padi%2C+Chennai%2C+Tamil+Nadu+600050"
 };
 
 /**

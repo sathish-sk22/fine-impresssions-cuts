@@ -22,9 +22,9 @@ export const TRANSLATIONS = {
     lang_select_title: "Select language",
 
     // Hero
-    hero_tagline: "Laser marking · Embossing · Engraving",
-    hero_headline: "Permanent marks on metal and leather.",
-    hero_description: "We mark, emboss and engrave logos, names and serial numbers for shops, factories and gift buyers. One piece or a full batch.",
+    hero_tagline: "20+ Years of Manufacturing Expertise",
+    hero_headline: "2D & 3D CNC Dies, Leather Embossing & Laser Marking.",
+    hero_description: "20 years of expertise in manufacturing 2D & 3D CNC engraving dies, leather embossing, hot foil stamping for leather industries, and precision laser marking.",
     hero_whatsapp_cta: "Send your logo on WhatsApp",
     hero_work_cta: "See our work",
     hero_materials_title: "Materials we work on",
@@ -105,6 +105,7 @@ export const TRANSLATIONS = {
     contact_lede: "Message us the design and what you want it on. We reply with the price and a sample plan.",
     contact_whatsapp_label: "WhatsApp",
     contact_phone_label: "Phone",
+    contact_landline_label: "Landline",
     contact_visit_label: "Shop address",
     contact_hours_label: "Working hours",
     contact_open_wa: "Open WhatsApp",
@@ -114,8 +115,8 @@ export const TRANSLATIONS = {
     contact_shop_photo: "Photo: our shop",
 
     // Footer
-    footer_tagline: "Permanent marks on metal and leather.",
-    footer_about: "Laser marking, leather embossing and CNC engraving for shops, factories and gift buyers.",
+    footer_tagline: "20+ Years of Precision in CNC Dies, Embossing & Laser Marking",
+    footer_about: "Manufacturing 2D & 3D CNC engraving dies, leather embossing, hot foil stamping for leather industries, and precision laser marking.",
     footer_rights: "All rights reserved.",
     footer_quick_links: "Quick Links",
     footer_services_title: "Our Services",
@@ -136,9 +137,9 @@ export const TRANSLATIONS = {
     lang_select_title: "மொழியைத் தேர்ந்தெடுக்கவும்",
 
     // Hero
-    hero_tagline: "லேசர் குறியிடுதல் · எம்போசிங் · என்கிரேவிங்",
-    hero_headline: "உலோகம் மற்றும் தோலில் நிரந்தர அடையாளங்கள்.",
-    hero_description: "கடைகள், தொழிற்சாலைகள் மற்றும் அன்பளிப்பு வாங்குபவர்களுக்காக லோகோக்கள், பெயர்கள் மற்றும் வரிசை எண்களை துல்லியமாக பொறிக்கிறோம். ஒற்றைப் பொருள் முதல் மொத்த தயாரிப்பு வரை.",
+    hero_tagline: "20+ வருட உற்பத்தி அனுபவம்",
+    hero_headline: "2D & 3D CNC அச்சுகள், லெதர் எம்போசிங் & லேசர் மார்க்கிங்.",
+    hero_description: "தோல் மற்றும் உற்பத்தித் தொழில்களுக்கான 2D & 3D CNC என்கிரேவிங் டைகள், லெதர் எம்போசிங், ஹாட் ஃபாயில் ஸ்டாம்பிங் மற்றும் துல்லியமான லேசர் மார்க்கிங் தயாரிப்பில் 20 வருட அனுபவம்.",
     hero_whatsapp_cta: "வாட்ஸ்அப்பில் லோகோவை அனுப்பவும்",
     hero_work_cta: "எங்கள் வேலைகளைப் பார்க்க",
     hero_materials_title: "நாங்கள் வேலை செய்யும் பொருட்கள்",
@@ -219,6 +220,7 @@ export const TRANSLATIONS = {
     contact_lede: "உங்கள் வடிவமைப்பையும் எந்தப் பொருளில் வேண்டும் என்பதையும் அனுப்புங்கள். உடனடி விலையையும் மாதிரித் திட்டத்தையும் வழங்குகிறோம்.",
     contact_whatsapp_label: "வாட்ஸ்அப்",
     contact_phone_label: "தொலைபேசி",
+    contact_landline_label: "லேண்ட்லைன்",
     contact_visit_label: "கடை முகவரி",
     contact_hours_label: "வேலை நேரம்",
     contact_open_wa: "வாட்ஸ்அப்பில் தொடர்புகொள்ள",
@@ -228,8 +230,8 @@ export const TRANSLATIONS = {
     contact_shop_photo: "புகைப்படம்: எங்கள் கடை",
 
     // Footer
-    footer_tagline: "உலோகம் மற்றும் தோலில் நிரந்தர அடையாளங்கள்.",
-    footer_about: "கடைகள், தொழிற்சாலைகள் மற்றும் பரிசுப் பொருட்களுக்கான லேசர் மார்க்கிங், லெதர் எம்போசிங் மற்றும் சிஎன்சி என்கிரேவிங்.",
+    footer_tagline: "20+ வருட துல்லிய உற்பத்தி அனுபவம்",
+    footer_about: "தோல் தொழில்துறைக்கான 2D & 3D CNC என்கிரேவிங் டைகள், லெதர் எம்போசிங், ஹாட் ஃபாயில் ஸ்டாம்பிங் மற்றும் லேசர் மார்க்கிங்.",
     footer_rights: "அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
     footer_quick_links: "விரைவு இணைப்புகள்",
     footer_services_title: "எங்கள் சேவைகள்",
@@ -250,9 +252,9 @@ export const TRANSLATIONS = {
     lang_select_title: "भाषा चुनें",
 
     // Hero
-    hero_tagline: "लेजर मार्किंग · एम्बॉसिंग · नक्काशी (एनग्रेविंग)",
-    hero_headline: "धातु और चमड़े पर स्थायी निशान।",
-    hero_description: "हम दुकानों, कारखानों और उपहार खरीदारों के लिए लोगो, नाम और सीरियल नंबर मार्क, एम्बॉस और एनग्रेव करते हैं। एक पीस हो या पूरा बैच।",
+    hero_tagline: "मैन्युफैक्चरिंग में 20+ वर्षों का अनुभव",
+    hero_headline: "2D और 3D सीएनसी डाइस, लेदर एम्बॉसिंग और लेजर मार्किंग।",
+    hero_description: "लेदर और औद्योगिक निर्माण के लिए 2D और 3D सीएनसी एनग्रेविंग डाइस, लेदर एम्बॉसिंग, हॉट फॉयल स्टैम्पिंग और सटीक लेजर मार्किंग में 20 वर्षों की विशेषज्ञता।",
     hero_whatsapp_cta: "व्हाट्सएप पर अपना लोगो भेजें",
     hero_work_cta: "हमारा काम देखें",
     hero_materials_title: "जिन सामग्रियों पर हम काम करते हैं",
@@ -333,6 +335,7 @@ export const TRANSLATIONS = {
     contact_lede: "हमें डिज़ाइन और सामग्री भेजें। हम त्वरित मूल्य और नमूना योजना के साथ उत्तर देंगे।",
     contact_whatsapp_label: "व्हाट्सएप",
     contact_phone_label: "फोन",
+    contact_landline_label: "लैंडलाइन",
     contact_visit_label: "दुकान का पता",
     contact_hours_label: "कार्य समय",
     contact_open_wa: "व्हाट्सएप खोलें",
@@ -342,8 +345,8 @@ export const TRANSLATIONS = {
     contact_shop_photo: "फोटो: हमारी दुकान",
 
     // Footer
-    footer_tagline: "मेटल और लेदर पर स्थायी निशान।",
-    footer_about: "दुकानों, कारखानों और उपहारों के लिए लेजर मार्किंग, लेदर एम्बॉसिंग और सीएनसी नक्काशी।",
+    footer_tagline: "सीएनसी डाइस, एम्बॉसिंग और लेजर मार्किंग में 20+ वर्षों की सटीकता",
+    footer_about: "लेदर उद्योग के लिए 2D और 3D सीएनसी एनग्रेविंग डाइस, लेदर एम्बॉसिंग, हॉट फॉयल स्टैम्पिंग और लेजर मार्किंग।",
     footer_rights: "सर्वाधिकार सुरक्षित।",
     footer_quick_links: "त्वरित लिंक",
     footer_services_title: "हमारी सेवाएं",

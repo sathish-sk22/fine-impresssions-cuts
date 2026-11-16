@@ -70,26 +70,26 @@ export default function Contact() {
                 href={`tel:${BUSINESS.phone.replace(/[^0-9+]/g, '')}`}
                 className="contact-number-link"
                 id="ph-number"
-                title="Call primary phone"
+                title="Call main mobile"
               >
                 {BUSINESS.phone}
               </a>
               <CopyButton target="ph-number" text={BUSINESS.phone} />
-              {BUSINESS.phoneAlt && (
-                <>
-                  <span className="phone-separator">/</span>
-                  <a
-                    href={`tel:${BUSINESS.phoneAlt.replace(/[^0-9+]/g, '')}`}
-                    className="contact-number-link"
-                    id="ph-alt"
-                    title="Call alternate phone"
-                  >
-                    {BUSINESS.phoneAlt}
-                  </a>
-                  <CopyButton target="ph-alt" text={BUSINESS.phoneAlt} />
-                </>
-              )}
             </ContactRow>
+
+            {BUSINESS.landline && (
+              <ContactRow label={t('contact_landline_label', 'Landline')} delay={90}>
+                <a
+                  href={`tel:${BUSINESS.landline.replace(/[^0-9+]/g, '')}`}
+                  className="contact-number-link"
+                  id="landline-number"
+                  title="Call landline"
+                >
+                  {BUSINESS.landline}
+                </a>
+                <CopyButton target="landline-number" text={BUSINESS.landline} />
+              </ContactRow>
+            )}
 
             <ContactRow label={t('contact_visit_label', 'Shop address')} delay={120}>
               <span className="contact-address-val">{BUSINESS.address}</span>

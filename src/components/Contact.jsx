@@ -91,7 +91,27 @@ export default function Contact() {
               </ContactRow>
             )}
 
-            <ContactRow label={t('contact_visit_label', 'Shop address')} delay={120}>
+            {BUSINESS.email && (
+              <ContactRow label={t('contact_email_label', 'Email enquiries')} delay={110}>
+                <a
+                  href={`mailto:${BUSINESS.email}?subject=${encodeURIComponent('Enquiry for Marking / Embossing / Dies')}`}
+                  className="contact-number-link"
+                  id="email-address"
+                  title="Send email enquiry"
+                >
+                  {BUSINESS.email}
+                </a>
+                <a
+                  className="btn ghost sm magnetic-btn"
+                  href={`mailto:${BUSINESS.email}?subject=${encodeURIComponent('Enquiry for Marking / Embossing / Dies')}`}
+                >
+                  {t('contact_send_email', 'Send email')}
+                </a>
+                <CopyButton target="email-address" text={BUSINESS.email} />
+              </ContactRow>
+            )}
+
+            <ContactRow label={t('contact_visit_label', 'Shop address')} delay={130}>
               <span className="contact-address-val">{BUSINESS.address}</span>
             </ContactRow>
 

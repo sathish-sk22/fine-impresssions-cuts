@@ -1,15 +1,15 @@
 import React, { useState, useEffect, useRef } from 'react';
-import eng1 from '../assets/engraving/engraving-1.jpg';
-import eng2 from '../assets/engraving/engraving-2.jpg';
-import eng3 from '../assets/engraving/engraving-3.jpg';
-import eng4 from '../assets/engraving/engraving-4.jpg';
-import eng5 from '../assets/engraving/engraving-5.jpg';
-import eng6 from '../assets/engraving/engraving-6.jpg';
+import p1 from '../assets/products/p1-aluminum-debossing-plate.jpg';
+import p2 from '../assets/products/p2-cnc-cutting-die-punch.jpg';
+import p3 from '../assets/products/p3-steel-embossing-die.jpg';
+import p4 from '../assets/products/p4-steel-cutting-dies.jpg';
+import p5 from '../assets/products/p5-spiral-cutting-die.jpg';
+import p6 from '../assets/products/p6-ss-plate-mould.jpg';
 
 // Instant background preloading with .decode() for immediate first-load availability
 if (typeof window !== 'undefined') {
   window.__PRELOADED_IMAGES__ = window.__PRELOADED_IMAGES__ || [];
-  [eng1, eng2, eng3, eng4, eng5, eng6].forEach((src) => {
+  [p1, p2, p3, p4, p5, p6].forEach((src) => {
     const pre = new Image();
     pre.src = src;
     if (pre.decode) pre.decode().catch(() => {});
@@ -19,46 +19,46 @@ if (typeof window !== 'undefined') {
 
 const ENGRAVING_SLIDES = [
   {
-    id: 'floral-die',
-    src: eng1,
-    alt: 'CNC engraved floral scrollwork brass die plate',
-    caption: 'Floral Brass Die Plate',
-    detail: 'Precision 3D CNC relief milling'
+    id: 'aluminum-debossing-plate',
+    src: p1,
+    alt: 'Aluminum debossing plate for footwear and leather components',
+    caption: 'Aluminum Debossing Plate',
+    detail: 'Precision CNC milled tooling plate'
   },
   {
-    id: 'roeckl-steel-dies',
-    src: eng2,
-    alt: 'CNC machined steel dies for leather embossing',
-    caption: 'Machined Steel Dies',
-    detail: 'Hardened steel embossing blocks'
+    id: 'cnc-cutting-die-punch',
+    src: p2,
+    alt: 'CNC cutting die with punch for precision leather shaping',
+    caption: 'CNC Cutting Die with Punch',
+    detail: 'Hardened steel punch tooling'
   },
   {
-    id: 'honeycomb-die',
-    src: eng3,
-    alt: 'Intricate metal textured honeycomb scale pattern die plate',
-    caption: 'Honeycomb Scale Die',
-    detail: 'Micro-textured pattern plate'
+    id: 'steel-embossing-die',
+    src: p3,
+    alt: 'Steel embossing die for crisp signature crest impressions',
+    caption: 'Steel Embossing Die',
+    detail: 'Micro-relief engraved steel block'
   },
   {
-    id: 'wave-plate',
-    src: eng4,
-    alt: 'Wave and flame textured CNC engraved metal plate',
-    caption: 'Wave Texture Plate',
-    detail: 'Multi-axis dimensional surface'
+    id: 'steel-cutting-dies',
+    src: p4,
+    alt: 'Multi-cavity steel cutting dies for shaped leather goods',
+    caption: 'Steel Cutting Dies',
+    detail: 'Formed & hardened cutting tools'
   },
   {
-    id: 'desigual-dies',
-    src: eng5,
-    alt: 'Desigual brass branding dies with interchangeable size blocks',
-    caption: 'Desigual Branding Dies',
-    detail: 'Custom brass dies with size set'
+    id: 'spiral-cutting-die',
+    src: p5,
+    alt: 'Spiral cutting die for continuous coiled trimming',
+    caption: 'Spiral Cutting Die',
+    detail: 'Precision concentric blade die'
   },
   {
-    id: 'levis-die-wallet',
-    src: eng6,
-    alt: 'Levi\'s brass die with embossed leather wallet',
-    caption: 'Levi\'s Die & Wallet',
-    detail: 'Brass batwing stamp & finished piece'
+    id: 'ss-plate-mould',
+    src: p6,
+    alt: 'Stainless steel plate mould with radial textured pattern',
+    caption: 'SS Plate Mould',
+    detail: 'Radial textured industrial mould'
   }
 ];
 

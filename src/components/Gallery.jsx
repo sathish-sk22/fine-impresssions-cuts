@@ -2,6 +2,14 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { useScrollReveal } from '../hooks/useAnimations';
 import { useLanguage } from '../context/LanguageContext';
 
+// 6 Real workshop manufacturing dies & moulds
+import p1 from '../assets/products/p1-aluminum-debossing-plate.jpg';
+import p2 from '../assets/products/p2-cnc-cutting-die-punch.jpg';
+import p3 from '../assets/products/p3-steel-embossing-die.jpg';
+import p4 from '../assets/products/p4-steel-cutting-dies.jpg';
+import p5 from '../assets/products/p5-spiral-cutting-die.jpg';
+import p6 from '../assets/products/p6-ss-plate-mould.jpg';
+
 // 12 Dedicated, distinct Recent Works images
 import rw1 from '../assets/recent-works/rw-1-levis-wallet.jpg';
 import rw2 from '../assets/recent-works/rw-2-brass-sizes.jpg';
@@ -19,7 +27,7 @@ import rw12 from '../assets/recent-works/rw-12-wave-macro.jpg';
 // Instant background preloading with .decode() for immediate first-load availability
 if (typeof window !== 'undefined') {
   window.__PRELOADED_IMAGES__ = window.__PRELOADED_IMAGES__ || [];
-  [rw1, rw2, rw3, rw4, rw5, rw6, rw7, rw8, rw9, rw10, rw11, rw12].forEach((src) => {
+  [p1, p2, p3, p4, p5, p6, rw1, rw2, rw3, rw4, rw5, rw6, rw7, rw8, rw9, rw10, rw11, rw12].forEach((src) => {
     const pre = new Image();
     pre.src = src;
     if (pre.decode) pre.decode().catch(() => {});
@@ -37,6 +45,7 @@ const RECENT_WORKS_CHANNELS = [
     id: 'rw-col-1',
     interval: 3400,
     items: [
+      { src: p1, label: 'Aluminum debossing plate', category: 'Footwear & Leather Die' },
       { src: rw1, label: 'Levi\'s embossed wallet in tin box', category: 'Finished piece' },
       { src: rw7, label: 'Clarks Contour Cushion gold foil', category: 'Footwear insole' }
     ]
@@ -45,6 +54,7 @@ const RECENT_WORKS_CHANNELS = [
     id: 'rw-col-2',
     interval: 4200,
     items: [
+      { src: p2, label: 'CNC cutting die with punch', category: 'Tooling & Punch' },
       { src: rw2, label: 'Desigual brass sizing die set', category: 'Interchangeable blocks' },
       { src: rw8, label: 'Roeckl debossed fine leather detail', category: 'Leather patch' }
     ]
@@ -53,6 +63,7 @@ const RECENT_WORKS_CHANNELS = [
     id: 'rw-col-3',
     interval: 3600,
     items: [
+      { src: p3, label: 'Steel embossing die', category: 'Precision Steel Block' },
       { src: rw3, label: 'Karl Lagerfeld circular KL impression', category: 'Monogram relief' },
       { src: rw9, label: 'CNC machined honeycomb mesh plate', category: 'Pattern die' }
     ]
@@ -61,6 +72,7 @@ const RECENT_WORKS_CHANNELS = [
     id: 'rw-col-4',
     interval: 4400,
     items: [
+      { src: p4, label: 'Steel cutting dies', category: 'Hardened Cutting Dies' },
       { src: rw4, label: 'LRDE - DRDO defense research emblem', category: 'Military spec' },
       { src: rw10, label: 'Elefanten elephant brand mark', category: 'Footwear leather' }
     ]
@@ -69,6 +81,7 @@ const RECENT_WORKS_CHANNELS = [
     id: 'rw-col-5',
     interval: 3800,
     items: [
+      { src: p5, label: 'Spiral cutting die', category: 'Concentric Blade Tool' },
       { src: rw5, label: 'Machined steel spindle laser collar', category: 'Part numbering' },
       { src: rw11, label: 'Seido Industries checking fixture grid', category: 'Data plate' }
     ]
@@ -77,6 +90,7 @@ const RECENT_WORKS_CHANNELS = [
     id: 'rw-col-6',
     interval: 4600,
     items: [
+      { src: p6, label: 'SS plate mould', category: 'Radial Texture Mould' },
       { src: rw6, label: 'Intricate brass scrollwork relief', category: 'CNC milling' },
       { src: rw12, label: 'Wave surface multi-axis toolpath', category: 'Surface texture' }
     ]

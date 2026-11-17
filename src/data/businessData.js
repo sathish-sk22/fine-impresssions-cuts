@@ -10,7 +10,7 @@ export const BUSINESS = {
   description:
     "20 years of expertise in manufacturing 2D & 3D CNC engraving dies, leather embossing, hot foil stamping for leather industries, and precision laser marking.",
   phone: "+91 73050 20168",
-  phoneAlt: "",
+  phoneAlt: "+91 76677 24242",
   landline: "044 43861376",
   email: "embossingdies@gmail.com",
   whatsapp: "917305020168",

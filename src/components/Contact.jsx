@@ -75,6 +75,20 @@ export default function Contact() {
                 {BUSINESS.phone}
               </a>
               <CopyButton target="ph-number" text={BUSINESS.phone} />
+              {BUSINESS.phoneAlt && (
+                <>
+                  <span className="phone-separator">/</span>
+                  <a
+                    href={`tel:${BUSINESS.phoneAlt.replace(/[^0-9+]/g, '')}`}
+                    className="contact-number-link"
+                    id="ph-alt"
+                    title="Call alternate mobile"
+                  >
+                    {BUSINESS.phoneAlt}
+                  </a>
+                  <CopyButton target="ph-alt" text={BUSINESS.phoneAlt} />
+                </>
+              )}
             </ContactRow>
 
             {BUSINESS.landline && (

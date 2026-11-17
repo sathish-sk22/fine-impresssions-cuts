@@ -16,9 +16,9 @@ export const BUSINESS = {
   whatsapp: "917305020168",
   address: "79/13, Mugappair Road, Padi, Chennai, Tamil Nadu, India – 600 050.",
   hours: "Mon – Sat: 9:00 AM – 8:00 PM",
-  mapsEmbedUrl: "https://maps.google.com/maps?q=79%2F13%2C+Mugappair+Road%2C+Padi%2C+Chennai%2C+Tamil+Nadu+600050&t=&z=16&ie=UTF8&iwloc=&output=embed",
-  mapsLink: "https://www.google.com/maps/search/?api=1&query=79%2F13%2C+Mugappair+Road%2C+Padi%2C+Chennai%2C+Tamil+Nadu+600050",
-  mapsDirectionsUrl: "https://www.google.com/maps/dir/?api=1&destination=79%2F13%2C+Mugappair+Road%2C+Padi%2C+Chennai%2C+Tamil+Nadu+600050"
+  mapsEmbedUrl: "https://maps.google.com/maps?q=13.0958275,80.176612+(FINE+IMPRESSIONS+%26+CUTS)&t=&z=17&ie=UTF8&iwloc=B&output=embed",
+  mapsLink: "https://maps.app.goo.gl/W2Qy2pQnkQTqN8A4A",
+  mapsDirectionsUrl: "https://maps.app.goo.gl/W2Qy2pQnkQTqN8A4A"
 };
 
 /**

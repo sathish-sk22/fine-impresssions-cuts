@@ -115,6 +115,15 @@ export default function Footer() {
                   <span>Email: {BUSINESS.email}</span>
                 </a>
               )}
+              {BUSINESS.gstin && (
+                <div className="footer-contact-item" style={{ cursor: 'default' }}>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                  </svg>
+                  <span>GSTIN: {BUSINESS.gstin}</span>
+                </div>
+              )}
               <a
                 href={BUSINESS.mapsDirectionsUrl}
                 target="_blank"
@@ -139,6 +148,12 @@ export default function Footer() {
           </p>
           <div className="footer-bottom-meta">
             <span className="footer-city-tag">Chennai, Tamil Nadu, India</span>
+            {BUSINESS.gstin && (
+              <>
+                <span className="footer-sep" aria-hidden="true">•</span>
+                <span className="footer-city-tag">GSTIN: {BUSINESS.gstin}</span>
+              </>
+            )}
             <span className="footer-sep" aria-hidden="true">•</span>
             <button type="button" onClick={scrollToTop} className="footer-back-to-top" title="Scroll back to top">
               <span>{t('footer_back_to_top', 'Back to top')}</span>

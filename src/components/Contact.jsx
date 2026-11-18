@@ -125,6 +125,15 @@ export default function Contact() {
               </ContactRow>
             )}
 
+            {BUSINESS.gstin && (
+              <ContactRow label={t('contact_gstin_label', 'GSTIN')} delay={120}>
+                <span className="contact-number-link" id="gstin-number" style={{ letterSpacing: '0.06em' }}>
+                  {BUSINESS.gstin}
+                </span>
+                <CopyButton target="gstin-number" text={BUSINESS.gstin} />
+              </ContactRow>
+            )}
+
             <ContactRow label={t('contact_visit_label', 'Shop address')} delay={130}>
               <span className="contact-address-val">{BUSINESS.address}</span>
             </ContactRow>

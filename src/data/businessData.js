@@ -14,6 +14,7 @@ export const BUSINESS = {
   landline: "044 43861376",
   email: "embossingdies@gmail.com",
   whatsapp: "917305020168",
+  gstin: "33AAGFF0179F1ZQ",
   address: "79/13, Mugappair Road, Padi, Chennai, Tamil Nadu, India – 600 050.",
   hours: "Mon – Sat: 9:00 AM – 8:00 PM",
   mapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.0076891280387!2d80.1740371!3d13.0958275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5263f2019f71e9%3A0x3265aa2881b6f63a!2sFINE%20IMPRESSIONS%20%26%20CUTS!5e0!3m2!1sen!2sin!4v1731864000000!5m2!1sen!2sin",
@@ -173,6 +174,12 @@ export const CUSTOMERS = [
     aspect: "wide"
   },
   {
+    id: "bugatti",
+    name: "bugatti",
+    logo: "/customers/bugatti.png",
+    aspect: "wide"
+  },
+  {
     id: "clarks",
     name: "Clarks",
     logo: "/customers/clarks.png",
@@ -183,6 +190,18 @@ export const CUSTOMERS = [
     name: "ecco",
     logo: "/customers/ecco.png",
     aspect: "wide"
+  },
+  {
+    id: "legero",
+    name: "legero",
+    logo: "/customers/legero.png",
+    aspect: "wide"
+  },
+  {
+    id: "bagatt",
+    name: "BAGATT",
+    logo: "/customers/bagatt.png",
+    aspect: "ultra-wide"
   },
   {
     id: "elefanten",

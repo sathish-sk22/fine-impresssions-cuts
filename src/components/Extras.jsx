@@ -21,9 +21,6 @@ export default function Extras() {
   const btn = t('extras_btn', 'Ask about a special job');
   const dimBottom = t('extras_dim_bottom', 'Special jobs');
   const dimLeft = t('extras_dim_left', 'Real work');
-  const drgNo = t('extras_drg_no', '003');
-  const scale = t('extras_scale', '1:1');
-  const sheetTitle = t('extras_sheet_title', 'Extra things we do');
   const items = t('extras_items', DEFAULT_EXTRAS);
   const fullscreenHint = t('gallery_fullscreen_hint', 'Full screen');
 
@@ -172,16 +169,6 @@ export default function Extras() {
               </div>
             </figure>
           </div>
-        </div>
-
-        {/* Blueprint title block */}
-        <div className="sheet">
-          <span>Drg no</span>
-          <b>{drgNo}</b>
-          <span>Scale</span>
-          <b>{scale}</b>
-          <span>Sheet</span>
-          <b>{sheetTitle}</b>
         </div>
       </div>
 

@@ -168,6 +168,12 @@ export const GALLERY = [
  */
 export const CUSTOMERS = [
   {
+    id: "bagatt",
+    name: "BAGATT",
+    logo: "/customers/bagatt.png",
+    aspect: "ultra-wide"
+  },
+  {
     id: "bata",
     name: "Bata",
     logo: "/customers/bata.png",
@@ -192,22 +198,22 @@ export const CUSTOMERS = [
     aspect: "wide"
   },
   {
-    id: "legero",
-    name: "legero",
-    logo: "/customers/legero.png",
-    aspect: "wide"
-  },
-  {
-    id: "bagatt",
-    name: "BAGATT",
-    logo: "/customers/bagatt.png",
-    aspect: "ultra-wide"
-  },
-  {
     id: "elefanten",
     name: "elefanten",
     logo: "/customers/elefanten.png",
     aspect: "balanced"
+  },
+  {
+    id: "florsheim",
+    name: "Florsheim",
+    logo: "/customers/florsheim.png",
+    aspect: "balanced"
+  },
+  {
+    id: "geox",
+    name: "GEOX",
+    logo: "/customers/geox.png",
+    aspect: "ultra-wide"
   },
   {
     id: "harley-davidson",
@@ -228,10 +234,46 @@ export const CUSTOMERS = [
     aspect: "square"
   },
   {
+    id: "keen",
+    name: "KEEN",
+    logo: "/customers/keen.png",
+    aspect: "wide"
+  },
+  {
+    id: "kickers",
+    name: "Kickers",
+    logo: "/customers/kickers.png",
+    aspect: "wide"
+  },
+  {
+    id: "legero",
+    name: "legero",
+    logo: "/customers/legero.png",
+    aspect: "wide"
+  },
+  {
+    id: "massimo-dutti",
+    name: "Massimo Dutti",
+    logo: "/customers/massimo-dutti.png",
+    aspect: "balanced"
+  },
+  {
+    id: "puma",
+    name: "PUMA",
+    logo: "/customers/puma.png",
+    aspect: "balanced"
+  },
+  {
     id: "skechers",
     name: "SKECHERS",
     logo: "/customers/skechers.png",
     aspect: "ultra-wide"
+  },
+  {
+    id: "superfit",
+    name: "superfit",
+    logo: "/customers/superfit.png",
+    aspect: "wide"
   },
   {
     id: "us-polo",

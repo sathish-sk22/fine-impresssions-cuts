@@ -3,6 +3,7 @@ import { BUSINESS, getWhatsAppLink, DEFAULT_QUOTE_MESSAGE } from '../data/busine
 import CopyButton from './CopyButton';
 import { useScrollReveal } from '../hooks/useAnimations';
 import { useLanguage } from '../context/LanguageContext';
+import { useQuoteModal } from '../context/QuoteModalContext';
 
 function ContactRow({ label, children, delay = 0 }) {
   const [ref, isVisible] = useScrollReveal({ threshold: 0.1 });
@@ -22,6 +23,7 @@ function ContactRow({ label, children, delay = 0 }) {
 export default function Contact() {
   const [headRef, headVisible] = useScrollReveal({ threshold: 0.2 });
   const { t } = useLanguage();
+  const { openQuoteModal } = useQuoteModal();
   const quoteMsg = t('wa_quote_message', DEFAULT_QUOTE_MESSAGE);
   const waQuoteUrl = getWhatsAppLink(quoteMsg);
 
@@ -53,6 +55,10 @@ export default function Contact() {
                 className="contact-number-link"
                 id="wa-number"
                 title="Chat on WhatsApp"
+                onClick={(e) => {
+                  e.preventDefault();
+                  openQuoteModal();
+                }}
               >
                 {BUSINESS.phone}
               </a>
@@ -61,6 +67,10 @@ export default function Contact() {
                 href={waQuoteUrl}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={(e) => {
+                  e.preventDefault();
+                  openQuoteModal();
+                }}
               >
                 {t('contact_open_wa', 'Open WhatsApp')}
               </a>

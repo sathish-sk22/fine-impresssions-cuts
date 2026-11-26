@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { BUSINESS } from '../data/businessData';
 import { useLanguage } from '../context/LanguageContext';
+import { useQuoteModal } from '../context/QuoteModalContext';
 import logoImg from '../assets/logo.png';
 
 export default function Header({ theme, onToggleTheme }) {
@@ -9,6 +10,7 @@ export default function Header({ theme, onToggleTheme }) {
   const langRef = useRef(null);
 
   const { lang, setLang, languages, t } = useLanguage();
+  const { openQuoteModal } = useQuoteModal();
 
   const closeMenu = () => setMobileMenuOpen(false);
 
@@ -142,7 +144,14 @@ export default function Header({ theme, onToggleTheme }) {
           )}
 
           {/* CTA button */}
-          <a className="btn primary sm desktop-cta" href="#contact">
+          <a
+            className="btn primary sm desktop-cta"
+            href="#contact"
+            onClick={(e) => {
+              e.preventDefault();
+              openQuoteModal();
+            }}
+          >
             {t('nav_quote_btn', 'Get a quote')}
           </a>
 
@@ -213,7 +222,15 @@ export default function Header({ theme, onToggleTheme }) {
                   {item.isExternal && <span className="nav-pdf-tag">PDF</span>}
                 </a>
               ))}
-              <a className="btn primary" href="#contact" onClick={closeMenu}>
+              <a
+                className="btn primary"
+                href="#contact"
+                onClick={(e) => {
+                  e.preventDefault();
+                  closeMenu();
+                  openQuoteModal();
+                }}
+              >
                 {t('nav_quote_btn', 'Get a quote')}
               </a>
             </div>

@@ -119,6 +119,20 @@ export const TRANSLATIONS = {
     contact_copied: "Copied!",
     contact_shop_photo: "Photo: our shop",
 
+    // Quote Selection Modal
+    quote_modal_badge: "QUOTATION REQUEST",
+    quote_modal_title: "Select services for quotation",
+    quote_modal_subtitle: "Choose what you need so we prepare the best price plan on WhatsApp.",
+    quote_modal_options_label: "Categories",
+    quote_modal_select_all: "Select all",
+    quote_modal_notes_label: "Additional info (optional):",
+    quote_modal_notes_ph: "e.g. Stainless steel 304, approx 50 pcs, or urgent deadline",
+    quote_modal_preview: "WhatsApp Message Preview",
+    quote_modal_copy: "Copy message",
+    quote_modal_copied: "Copied!",
+    quote_modal_cancel: "Close",
+    quote_modal_continue: "Send to WhatsApp",
+
     // Footer
     footer_tagline: "20+ Years of Precision in CNC Dies, Embossing & Laser Marking",
     footer_about: "Manufacturing 2D & 3D CNC engraving dies, leather embossing, hot foil stamping for leather industries, and precision laser marking.",
@@ -239,6 +253,20 @@ export const TRANSLATIONS = {
     contact_copied: "நகலெடுக்கப்பட்டது!",
     contact_shop_photo: "புகைப்படம்: எங்கள் கடை",
 
+    // Quote Selection Modal
+    quote_modal_badge: "விலை விவரம் கோரிக்கை",
+    quote_modal_title: "விலை விவரத்திற்கான சேவைகளைத் தேர்ந்தெடுக்கவும்",
+    quote_modal_subtitle: "வாட்ஸ்அப்பில் சிறந்த விலை திட்டத்தை நாங்கள் வழங்க தேவையானதைத் தேர்ந்தெடுக்கவும்.",
+    quote_modal_options_label: "பிரிவுகள்",
+    quote_modal_select_all: "அனைத்தையும் தேர்ந்தெடு",
+    quote_modal_notes_label: "கூடுதல் தகவல் (விருப்பத்தேர்வு):",
+    quote_modal_notes_ph: "எ.கா: துருப்பிடிக்காத எஃகு 304, 50 துண்டுகள் அல்லது அவசர தேவை",
+    quote_modal_preview: "வாட்ஸ்அப் செய்தி முன்னோட்டம்",
+    quote_modal_copy: "செய்தியை நகலெடு",
+    quote_modal_copied: "நகலெடுக்கப்பட்டது!",
+    quote_modal_cancel: "மூடு",
+    quote_modal_continue: "வாட்ஸ்அப்பிற்கு அனுப்பு",
+
     // Footer
     footer_tagline: "20+ வருட துல்லிய உற்பத்தி அனுபவம்",
     footer_about: "தோல் தொழில்துறைக்கான 2D & 3D CNC என்கிரேவிங் டைகள், லெதர் எம்போசிங், ஹாட் ஃபாயில் ஸ்டாம்பிங் மற்றும் லேசர் மார்க்கிங்.",
@@ -358,6 +386,20 @@ export const TRANSLATIONS = {
     contact_copy: "कॉपी करें",
     contact_copied: "कॉपी हो गया!",
     contact_shop_photo: "फोटो: हमारी दुकान",
+
+    // Quote Selection Modal
+    quote_modal_badge: "कोटेशन अनुरोध",
+    quote_modal_title: "कोटेशन के लिए सेवाएं चुनें",
+    quote_modal_subtitle: "व्हाट्सएप पर सटीक मूल्य योजना पाने के लिए आवश्यक विकल्प चुनें।",
+    quote_modal_options_label: "श्रेणियां",
+    quote_modal_select_all: "सभी चुनें",
+    quote_modal_notes_label: "अतिरिक्त जानकारी (वैकल्पिक):",
+    quote_modal_notes_ph: "उदा: स्टेनलेस स्टील 304, लगभग 50 नग, या तत्काल आवश्यकता",
+    quote_modal_preview: "व्हाट्सएप संदेश पूर्वावलोकन",
+    quote_modal_copy: "संदेश कॉपी करें",
+    quote_modal_copied: "कॉपी हो गया!",
+    quote_modal_cancel: "बंद करें",
+    quote_modal_continue: "व्हाट्सएप पर भेजें",
 
     // Footer
     footer_tagline: "सीएनसी डाइस, एम्बॉसिंग और लेजर मार्किंग में 20+ वर्षों की सटीकता",

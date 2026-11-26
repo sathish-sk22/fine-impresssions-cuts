@@ -15,7 +15,7 @@ export const BUSINESS = {
   email: "embossingdies@gmail.com",
   whatsapp: "917305020168",
   gstin: "33AAGFF0179F1ZQ",
-  address: "79/13, Mugappair Road, Padi, Chennai, Tamil Nadu, India – 600 050.",
+  address: "No. 79, 13, Mugappair Road, Mannurpet, Padi, Chennai, Tamil Nadu 600058",
   hours: "Mon – Sat: 9:00 AM – 8:00 PM",
   mapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.0076891280387!2d80.1740371!3d13.0958275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5263f2019f71e9%3A0x3265aa2881b6f63a!2sFINE%20IMPRESSIONS%20%26%20CUTS!5e0!3m2!1sen!2sin!4v1731864000000!5m2!1sen!2sin",
   mapsLink: "https://www.google.com/maps/place/FINE+IMPRESSIONS+%26+CUTS/@13.0958275,80.176612,17z/data=!3m1!4b1!4m6!3m5!1s0x3a5263f2019f71e9:0x3265aa2881b6f63a!8m2!3d13.0958275!4d80.176612!16s%2Fg%2F11c6m3knfx",

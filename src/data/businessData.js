@@ -79,8 +79,8 @@ export const DEFAULT_QUOTE_MESSAGE =
   "Hi, I would like to get a quote for:\n1. 3D Design\n2. Engraving\n3. Laser Marking\n4. Embossing";
 
 export const getWhatsAppLink = (message = DEFAULT_QUOTE_MESSAGE) => {
-  const base = `https://wa.me/${BUSINESS.whatsapp}`;
-  return message ? `${base}?text=${encodeURIComponent(message)}` : base;
+  const base = `https://api.whatsapp.com/send?phone=${BUSINESS.whatsapp}`;
+  return message ? `${base}&text=${encodeURIComponent(message)}` : base;
 };
 
 export const WA_LINK = getWhatsAppLink(DEFAULT_QUOTE_MESSAGE);

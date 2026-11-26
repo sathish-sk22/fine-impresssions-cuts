@@ -76,7 +76,7 @@ export const LASER_MARKING_SLIDES = [
 ];
 
 export const DEFAULT_QUOTE_MESSAGE =
-  "Hi, I would like to get a quote for:\n1. 3D Design\n2. Engraving\n3. Laser Marking\n4. Embossing";
+  "Hi, I need quotation for:\nOption 1: Laser Marking\nOption 2: Engraving\nOption 3: Embossing\nOption 4: 3D Design";
 
 export const getWhatsAppLink = (message = DEFAULT_QUOTE_MESSAGE) => {
   const base = `https://api.whatsapp.com/send?phone=${BUSINESS.whatsapp}`;

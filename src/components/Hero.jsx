@@ -1,5 +1,5 @@
 import React from 'react';
-import { BUSINESS, WA_QUOTE, MATERIALS } from '../data/businessData';
+import { BUSINESS, getWhatsAppLink, DEFAULT_QUOTE_MESSAGE, MATERIALS } from '../data/businessData';
 import { useScrollReveal } from '../hooks/useAnimations';
 import { useLanguage } from '../context/LanguageContext';
 import LaserSimulator from './LaserSimulator';
@@ -12,6 +12,8 @@ export default function Hero() {
   const headline = t('hero_headline', BUSINESS.headline);
   const description = t('hero_description', BUSINESS.description);
   const waCta = t('hero_whatsapp_cta', 'Send your logo on WhatsApp');
+  const quoteMsg = t('wa_quote_message', DEFAULT_QUOTE_MESSAGE);
+  const waQuoteUrl = getWhatsAppLink(quoteMsg);
   const workCta = t('hero_work_cta', 'See our work');
   const materialsList = t('materials', MATERIALS);
 
@@ -41,7 +43,7 @@ export default function Hero() {
           <div className="cta-row reveal-item" style={{ transitionDelay: '240ms' }}>
             <a
               className="btn primary magnetic-btn"
-              href={WA_QUOTE}
+              href={waQuoteUrl}
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BUSINESS, WA_LINK } from '../data/businessData';
+import { BUSINESS, getWhatsAppLink, DEFAULT_QUOTE_MESSAGE } from '../data/businessData';
 import CopyButton from './CopyButton';
 import { useScrollReveal } from '../hooks/useAnimations';
 import { useLanguage } from '../context/LanguageContext';
@@ -22,6 +22,8 @@ function ContactRow({ label, children, delay = 0 }) {
 export default function Contact() {
   const [headRef, headVisible] = useScrollReveal({ threshold: 0.2 });
   const { t } = useLanguage();
+  const quoteMsg = t('wa_quote_message', DEFAULT_QUOTE_MESSAGE);
+  const waQuoteUrl = getWhatsAppLink(quoteMsg);
 
   return (
     <section className="band" id="contact">
@@ -45,7 +47,7 @@ export default function Contact() {
           <dl className="contact-list">
             <ContactRow label={t('contact_whatsapp_label', 'WhatsApp')} delay={0}>
               <a
-                href={WA_LINK}
+                href={waQuoteUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact-number-link"
@@ -56,7 +58,7 @@ export default function Contact() {
               </a>
               <a
                 className="btn primary sm magnetic-btn"
-                href={WA_LINK}
+                href={waQuoteUrl}
                 target="_blank"
                 rel="noopener noreferrer"
               >

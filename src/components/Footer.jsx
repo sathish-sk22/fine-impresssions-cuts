@@ -1,11 +1,13 @@
 import React from 'react';
-import { BUSINESS, WA_LINK } from '../data/businessData';
+import { BUSINESS, getWhatsAppLink, DEFAULT_QUOTE_MESSAGE } from '../data/businessData';
 import { useLanguage } from '../context/LanguageContext';
 import logoImg from '../assets/logo.png';
 
 export default function Footer() {
   const { t } = useLanguage();
   const currentYear = new Date().getFullYear();
+  const quoteMsg = t('wa_quote_message', DEFAULT_QUOTE_MESSAGE);
+  const waQuoteUrl = getWhatsAppLink(quoteMsg);
 
   const scrollToTop = (e) => {
     e.preventDefault();
@@ -100,7 +102,7 @@ export default function Footer() {
                   <span>Landline: {BUSINESS.landline}</span>
                 </a>
               )}
-              <a href={WA_LINK} target="_blank" rel="noopener noreferrer" className="footer-contact-item">
+              <a href={waQuoteUrl} target="_blank" rel="noopener noreferrer" className="footer-contact-item">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                   <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
                 </svg>

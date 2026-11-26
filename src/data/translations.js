@@ -80,6 +80,7 @@ export const TRANSLATIONS = {
     extras_sheet_title: "Extra things we do",
     extras_items: [
       { title: "Design help", text: "Send a rough sketch or a photo and we prepare the file for marking." },
+      { title: "3D design", text: "Precision 2D & 3D CAD relief modeling and custom die design from sketches or physical samples." },
       { title: "Bulk and gift orders", text: "Corporate gifts, wedding favours and festival hampers in any quantity." }
     ],
 
@@ -198,6 +199,7 @@ export const TRANSLATIONS = {
     extras_sheet_title: "கூடுதல் வேலைகள்",
     extras_items: [
       { title: "வடிவமைப்பு உதவி", text: "ஒரு ரஃப் ஸ்கெட்ச் அல்லது புகைப்படத்தை அனுப்புங்கள், நாங்கள் அதைத் தயார் செய்கிறோம்." },
+      { title: "3D வடிவமைப்பு", text: "வரைபடங்கள் அல்லது மாதிரிகளிலிருந்து துல்லியமான 2D & 3D CAD மற்றும் டை வடிவமைப்பு." },
       { title: "மொத்த மற்றும் பரிசு ஆர்டர்கள்", text: "கார்ப்பரேட் பரிசுகள், திருமண அன்பளிப்புகள் மற்றும் திருவிழா பேக்குகள்." }
     ],
 
@@ -316,6 +318,7 @@ export const TRANSLATIONS = {
     extras_sheet_title: "अतिरिक्त कार्य",
     extras_items: [
       { title: "डिज़ाइन में सहायता", text: "एक रफ स्केच या फोटो भेजें, हम मार्किंग के लिए फाइल तैयार करेंगे।" },
+      { title: "3D डिज़ाइन", text: "स्केच या नमूनों से सटीक 2D और 3D CAD रिलीफ मॉडलिंग और कस्टम डाई डिज़ाइन।" },
       { title: "थोक और उपहार ऑर्डर", text: "कॉर्पोरेट उपहार, शादी के तोहफे और फेस्टिव हैंपर्स किसी भी मात्रा में।" }
     ],
 

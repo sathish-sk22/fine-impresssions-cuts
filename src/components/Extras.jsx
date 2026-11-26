@@ -7,6 +7,7 @@ import goldGoddess from '../assets/extras/gold-goddess-emboss.jpg';
 
 const DEFAULT_EXTRAS = [
   { title: "Design help", text: "Send a rough sketch or a photo and we prepare the file for marking." },
+  { title: "3D design", text: "Precision 2D & 3D CAD relief modeling and custom die design from sketches or physical samples." },
   { title: "Bulk and gift orders", text: "Corporate gifts, wedding favours and festival hampers in any quantity." }
 ];
 

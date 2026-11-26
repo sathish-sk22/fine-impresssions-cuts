@@ -1,11 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
   <url>
     <loc>https://fineimpressions.in/</loc>
     <lastmod>2026-11-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- CNC Engraving Services -->
+  <url>
+    <loc>https://fineimpressions.in/cnc-engraving/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Industrial Laser Marking Services -->
+  <url>
+    <loc>https://fineimpressions.in/laser-marking/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Metal Engraving Services -->
+  <url>
+    <loc>https://fineimpressions.in/metal-engraving/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Leather Embossing Services -->
+  <url>
+    <loc>https://fineimpressions.in/leather-embossing/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Official PDF Product Catalog -->
   <url>
     <loc>https://fineimpressions.in/Fine-Impressions-and-Cuts-Catalog.pdf</loc>
     <lastmod>2026-11-26</lastmod>

@@ -6,6 +6,7 @@ import LeatherEmbossingSlider from './LeatherEmbossingSlider';
 import EngravingSlider from './EngravingSlider';
 import { useScrollReveal } from '../hooks/useAnimations';
 import { useLanguage } from '../context/LanguageContext';
+import { Link } from '../context/NavigationContext';
 
 function ServiceCard({ service, index, t }) {
   const [ref, isVisible] = useScrollReveal({ threshold: 0.1 });
@@ -60,9 +61,32 @@ function ServiceCard({ service, index, t }) {
           <li key={u}>{u}</li>
         ))}
       </ul>
-      <a className="btn ghost sm magnetic-btn" href="#contact">
-        {cta}
-      </a>
+      <div className="service-card-actions">
+        <a className="btn ghost sm magnetic-btn" href="#contact">
+          {cta}
+        </a>
+        {service.id === 'laser-marking' && (
+          <Link to="/laser-marking" className="service-detail-link">
+            Laser Marking Services &rarr;
+          </Link>
+        )}
+        {service.id === 'embossing' && (
+          <Link to="/leather-embossing" className="service-detail-link">
+            Leather Embossing Services &rarr;
+          </Link>
+        )}
+        {service.id === 'engraving' && (
+          <div className="service-detail-links">
+            <Link to="/cnc-engraving" className="service-detail-link">
+              CNC Engraving &rarr;
+            </Link>
+            <span className="service-detail-sep">&bull;</span>
+            <Link to="/metal-engraving" className="service-detail-link">
+              Metal Engraving &rarr;
+            </Link>
+          </div>
+        )}
+      </div>
     </article>
   );
 }

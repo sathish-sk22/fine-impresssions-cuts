@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { BUSINESS } from '../data/businessData';
 import { useLanguage } from '../context/LanguageContext';
+import { useNavigation } from '../context/NavigationContext';
 import logoImg from '../assets/logo.png';
 
 export default function Header({ theme, onToggleTheme }) {
@@ -9,8 +10,34 @@ export default function Header({ theme, onToggleTheme }) {
   const langRef = useRef(null);
 
   const { lang, setLang, languages, t } = useLanguage();
+  const { currentPath, navigate } = useNavigation();
 
   const closeMenu = () => setMobileMenuOpen(false);
+
+  const handleBrandClick = (e) => {
+    closeMenu();
+    if (currentPath !== '/') {
+      e.preventDefault();
+      navigate('/');
+    }
+  };
+
+  const handleNavClick = (e, item) => {
+    closeMenu();
+    if (item.isExternal) return;
+    if (currentPath !== '/' && item.href.startsWith('#')) {
+      e.preventDefault();
+      navigate('/' + item.href);
+    }
+  };
+
+  const handleCtaClick = (e) => {
+    closeMenu();
+    if (currentPath !== '/') {
+      e.preventDefault();
+      navigate('/#contact');
+    }
+  };
 
   // Close language dropdown on outside click
   useEffect(() => {
@@ -45,7 +72,7 @@ export default function Header({ theme, onToggleTheme }) {
   return (
     <header className="top">
       <div className="wrap">
-        <a className="brand" href="#top" aria-label={`${BUSINESS.name}, home`} onClick={closeMenu}>
+        <a className="brand" href={currentPath === '/' ? '#top' : '/'} aria-label={`${BUSINESS.name}, home`} onClick={handleBrandClick}>
           <img
             src={logoImg}
             alt="Fine Impressions and Cuts logo"
@@ -60,10 +87,11 @@ export default function Header({ theme, onToggleTheme }) {
             {navItems.map((item) => (
               <a
                 key={item.href}
-                href={item.href}
+                href={item.isExternal ? item.href : (currentPath === '/' ? item.href : '/' + item.href)}
                 target={item.isExternal ? '_blank' : undefined}
                 rel={item.isExternal ? 'noopener noreferrer' : undefined}
                 className={item.isExternal ? 'nav-catalog-link' : ''}
+                onClick={(e) => handleNavClick(e, item)}
               >
                 {item.label}
                 {item.isExternal && <span className="nav-pdf-tag">PDF</span>}
@@ -142,7 +170,11 @@ export default function Header({ theme, onToggleTheme }) {
           )}
 
           {/* CTA button */}
-          <a className="btn primary sm desktop-cta" href="#contact">
+          <a
+            className="btn primary sm desktop-cta"
+            href={currentPath === '/' ? '#contact' : '/#contact'}
+            onClick={handleCtaClick}
+          >
             {t('nav_quote_btn', 'Get a quote')}
           </a>
 
@@ -204,16 +236,20 @@ export default function Header({ theme, onToggleTheme }) {
               {navItems.map((item) => (
                 <a
                   key={item.href}
-                  href={item.href}
+                  href={item.isExternal ? item.href : (currentPath === '/' ? item.href : '/' + item.href)}
                   target={item.isExternal ? '_blank' : undefined}
                   rel={item.isExternal ? 'noopener noreferrer' : undefined}
-                  onClick={closeMenu}
+                  onClick={(e) => handleNavClick(e, item)}
                 >
                   {item.label}
                   {item.isExternal && <span className="nav-pdf-tag">PDF</span>}
                 </a>
               ))}
-              <a className="btn primary" href="#contact" onClick={closeMenu}>
+              <a
+                className="btn primary"
+                href={currentPath === '/' ? '#contact' : '/#contact'}
+                onClick={handleCtaClick}
+              >
                 {t('nav_quote_btn', 'Get a quote')}
               </a>
             </div>

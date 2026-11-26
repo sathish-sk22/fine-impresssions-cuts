@@ -1,6 +1,7 @@
 import React from 'react';
 import { BUSINESS, WA_LINK } from '../data/businessData';
 import { useLanguage } from '../context/LanguageContext';
+import { Link } from '../context/NavigationContext';
 import logoImg from '../assets/logo.png';
 
 export default function Footer() {
@@ -40,11 +41,11 @@ export default function Footer() {
           <div className="footer-col">
             <h4 className="footer-heading">{t('footer_quick_links', 'Quick Links')}</h4>
             <ul className="footer-links-list">
-              <li><a href="#services">{t('nav_services', 'Services')}</a></li>
-              <li><a href="#extras">{t('extras_title', 'Extra things we do')}</a></li>
-              <li><a href="#gallery">{t('nav_gallery', 'Our work')}</a></li>
-              <li><a href="#process">{t('nav_process', 'How it works')}</a></li>
-              <li><a href="#customers">{t('nav_customers', 'Customers')}</a></li>
+              <li><Link to="/#services">{t('nav_services', 'Services')}</Link></li>
+              <li><Link to="/#extras">{t('extras_title', 'Extra things we do')}</Link></li>
+              <li><Link to="/#gallery">{t('nav_gallery', 'Our work')}</Link></li>
+              <li><Link to="/#process">{t('nav_process', 'How it works')}</Link></li>
+              <li><Link to="/#customers">{t('nav_customers', 'Customers')}</Link></li>
               <li>
                 <a
                   href="/Fine-Impressions-and-Cuts-Catalog.pdf"
@@ -63,11 +64,10 @@ export default function Footer() {
           <div className="footer-col">
             <h4 className="footer-heading">{t('footer_services_title', 'Our Services')}</h4>
             <ul className="footer-links-list">
-              <li><a href="#services">{t('service_laser_title', 'Laser Marking')}</a></li>
-              <li><a href="#services">{t('service_emboss_title', 'Leather Embossing')}</a></li>
-              <li><a href="#services">{t('service_engrave_title', 'CNC Engraving')}</a></li>
-              <li><a href="#extras">Devotional & Gold Foil Embossing</a></li>
-              <li><a href="#services">Shoe & Bag Metal Dies</a></li>
+              <li><Link to="/cnc-engraving">{t('service_engrave_title', 'CNC Engraving')}</Link></li>
+              <li><Link to="/laser-marking">{t('service_laser_title', 'Laser Marking')}</Link></li>
+              <li><Link to="/metal-engraving">Metal Engraving</Link></li>
+              <li><Link to="/leather-embossing">{t('service_emboss_title', 'Leather Embossing')}</Link></li>
             </ul>
           </div>
 

@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { LanguageProvider } from './context/LanguageContext';
-import { QuoteModalProvider } from './context/QuoteModalContext';
-import QuoteModal from './components/QuoteModal';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Customers from './components/Customers';
@@ -45,22 +43,19 @@ export default function App() {
 
   return (
     <LanguageProvider>
-      <QuoteModalProvider>
-        <div className={scrolled ? 'has-scrolled' : ''}>
-          <Header theme={theme} onToggleTheme={toggleTheme} />
-          <main id="top">
-            <Hero />
-            <Customers />
-            <Services />
-            <Extras />
-            <Process />
-            <Gallery />
-            <Contact />
-          </main>
-          <Footer />
-        </div>
-        <QuoteModal />
-      </QuoteModalProvider>
+      <div className={scrolled ? 'has-scrolled' : ''}>
+        <Header theme={theme} onToggleTheme={toggleTheme} />
+        <main id="top">
+          <Hero />
+          <Customers />
+          <Services />
+          <Extras />
+          <Process />
+          <Gallery />
+          <Contact />
+        </main>
+        <Footer />
+      </div>
     </LanguageProvider>
   );
 }

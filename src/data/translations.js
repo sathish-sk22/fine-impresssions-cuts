@@ -26,7 +26,6 @@ export const TRANSLATIONS = {
     hero_headline: "2D & 3D CNC Dies, Leather Embossing & Laser Marking.",
     hero_description: "20 years of expertise in manufacturing 2D & 3D CNC engraving dies, leather embossing, hot foil stamping for leather industries, and precision laser marking.",
     hero_whatsapp_cta: "Send your logo on WhatsApp",
-    wa_quote_message: "Hi, I need quotation for:\nOption 1: Laser Marking\nOption 2: Engraving\nOption 3: Embossing\nOption 4: 3D Design",
     hero_work_cta: "See our work",
     hero_materials_title: "Materials we work on",
     materials: ["Stainless steel", "Aluminium", "Brass", "Leather"],
@@ -119,20 +118,6 @@ export const TRANSLATIONS = {
     contact_copied: "Copied!",
     contact_shop_photo: "Photo: our shop",
 
-    // Quote Selection Modal
-    quote_modal_badge: "QUOTATION REQUEST",
-    quote_modal_title: "Select services for quotation",
-    quote_modal_subtitle: "Choose what you need so we prepare the best price plan on WhatsApp.",
-    quote_modal_options_label: "Categories",
-    quote_modal_select_all: "Select all",
-    quote_modal_notes_label: "Additional info (optional):",
-    quote_modal_notes_ph: "e.g. Stainless steel 304, approx 50 pcs, or urgent deadline",
-    quote_modal_preview: "WhatsApp Message Preview",
-    quote_modal_copy: "Copy message",
-    quote_modal_copied: "Copied!",
-    quote_modal_cancel: "Close",
-    quote_modal_continue: "Send to WhatsApp",
-
     // Footer
     footer_tagline: "20+ Years of Precision in CNC Dies, Embossing & Laser Marking",
     footer_about: "Manufacturing 2D & 3D CNC engraving dies, leather embossing, hot foil stamping for leather industries, and precision laser marking.",
@@ -160,7 +145,6 @@ export const TRANSLATIONS = {
     hero_headline: "2D & 3D CNC அச்சுகள், லெதர் எம்போசிங் & லேசர் மார்க்கிங்.",
     hero_description: "தோல் மற்றும் உற்பத்தித் தொழில்களுக்கான 2D & 3D CNC என்கிரேவிங் டைகள், லெதர் எம்போசிங், ஹாட் ஃபாயில் ஸ்டாம்பிங் மற்றும் துல்லியமான லேசர் மார்க்கிங் தயாரிப்பில் 20 வருட அனுபவம்.",
     hero_whatsapp_cta: "வாட்ஸ்அப்பில் லோகோவை அனுப்பவும்",
-    wa_quote_message: "வணக்கம், எனக்கு விலை விவரம் (Quotation) தேவை:\nOption 1: Laser Marking\nOption 2: Engraving\nOption 3: Embossing\nOption 4: 3D Design",
     hero_work_cta: "எங்கள் வேலைகளைப் பார்க்க",
     hero_materials_title: "நாங்கள் வேலை செய்யும் பொருட்கள்",
     materials: ["துருப்பிடிக்காத எஃகு", "அலுமினியம்", "பித்தளை", "தோல்"],
@@ -253,20 +237,6 @@ export const TRANSLATIONS = {
     contact_copied: "நகலெடுக்கப்பட்டது!",
     contact_shop_photo: "புகைப்படம்: எங்கள் கடை",
 
-    // Quote Selection Modal
-    quote_modal_badge: "விலை விவரம் கோரிக்கை",
-    quote_modal_title: "விலை விவரத்திற்கான சேவைகளைத் தேர்ந்தெடுக்கவும்",
-    quote_modal_subtitle: "வாட்ஸ்அப்பில் சிறந்த விலை திட்டத்தை நாங்கள் வழங்க தேவையானதைத் தேர்ந்தெடுக்கவும்.",
-    quote_modal_options_label: "பிரிவுகள்",
-    quote_modal_select_all: "அனைத்தையும் தேர்ந்தெடு",
-    quote_modal_notes_label: "கூடுதல் தகவல் (விருப்பத்தேர்வு):",
-    quote_modal_notes_ph: "எ.கா: துருப்பிடிக்காத எஃகு 304, 50 துண்டுகள் அல்லது அவசர தேவை",
-    quote_modal_preview: "வாட்ஸ்அப் செய்தி முன்னோட்டம்",
-    quote_modal_copy: "செய்தியை நகலெடு",
-    quote_modal_copied: "நகலெடுக்கப்பட்டது!",
-    quote_modal_cancel: "மூடு",
-    quote_modal_continue: "வாட்ஸ்அப்பிற்கு அனுப்பு",
-
     // Footer
     footer_tagline: "20+ வருட துல்லிய உற்பத்தி அனுபவம்",
     footer_about: "தோல் தொழில்துறைக்கான 2D & 3D CNC என்கிரேவிங் டைகள், லெதர் எம்போசிங், ஹாட் ஃபாயில் ஸ்டாம்பிங் மற்றும் லேசர் மார்க்கிங்.",
@@ -294,7 +264,6 @@ export const TRANSLATIONS = {
     hero_headline: "2D और 3D सीएनसी डाइस, लेदर एम्बॉसिंग और लेजर मार्किंग।",
     hero_description: "लेदर और औद्योगिक निर्माण के लिए 2D और 3D सीएनसी एनग्रेविंग डाइस, लेदर एम्बॉसिंग, हॉट फॉयल स्टैम्पिंग और सटीक लेजर मार्किंग में 20 वर्षों की विशेषज्ञता।",
     hero_whatsapp_cta: "व्हाट्सएप पर अपना लोगो भेजें",
-    wa_quote_message: "नमस्ते, मुझे कोटेशन चाहिए:\nOption 1: Laser Marking\nOption 2: Engraving\nOption 3: Embossing\nOption 4: 3D Design",
     hero_work_cta: "हमारा काम देखें",
     hero_materials_title: "जिन सामग्रियों पर हम काम करते हैं",
     materials: ["स्टेनलेस स्टील", "एल्युमिनियम", "पीतल", "चमड़ा"],
@@ -386,20 +355,6 @@ export const TRANSLATIONS = {
     contact_copy: "कॉपी करें",
     contact_copied: "कॉपी हो गया!",
     contact_shop_photo: "फोटो: हमारी दुकान",
-
-    // Quote Selection Modal
-    quote_modal_badge: "कोटेशन अनुरोध",
-    quote_modal_title: "कोटेशन के लिए सेवाएं चुनें",
-    quote_modal_subtitle: "व्हाट्सएप पर सटीक मूल्य योजना पाने के लिए आवश्यक विकल्प चुनें।",
-    quote_modal_options_label: "श्रेणियां",
-    quote_modal_select_all: "सभी चुनें",
-    quote_modal_notes_label: "अतिरिक्त जानकारी (वैकल्पिक):",
-    quote_modal_notes_ph: "उदा: स्टेनलेस स्टील 304, लगभग 50 नग, या तत्काल आवश्यकता",
-    quote_modal_preview: "व्हाट्सएप संदेश पूर्वावलोकन",
-    quote_modal_copy: "संदेश कॉपी करें",
-    quote_modal_copied: "कॉपी हो गया!",
-    quote_modal_cancel: "बंद करें",
-    quote_modal_continue: "व्हाट्सएप पर भेजें",
 
     // Footer
     footer_tagline: "सीएनसी डाइस, एम्बॉसिंग और लेजर मार्किंग में 20+ वर्षों की सटीकता",

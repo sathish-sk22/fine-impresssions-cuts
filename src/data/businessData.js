@@ -75,16 +75,13 @@ export const LASER_MARKING_SLIDES = [
   }
 ];
 
-export const DEFAULT_QUOTE_MESSAGE =
-  "Hi, I need quotation for:\nOption 1: Laser Marking\nOption 2: Engraving\nOption 3: Embossing\nOption 4: 3D Design";
-
-export const getWhatsAppLink = (message = DEFAULT_QUOTE_MESSAGE) => {
-  const base = `https://api.whatsapp.com/send?phone=${BUSINESS.whatsapp}`;
-  return message ? `${base}&text=${encodeURIComponent(message)}` : base;
+export const getWhatsAppLink = (message) => {
+  const base = `https://wa.me/${BUSINESS.whatsapp}`;
+  return message ? `${base}?text=${encodeURIComponent(message)}` : base;
 };
 
-export const WA_LINK = getWhatsAppLink(DEFAULT_QUOTE_MESSAGE);
-export const WA_QUOTE = getWhatsAppLink(DEFAULT_QUOTE_MESSAGE);
+export const WA_LINK = `https://wa.me/${BUSINESS.whatsapp}`;
+export const WA_QUOTE = `https://wa.me/${BUSINESS.whatsapp}`;
 
 export const NAV = [
   { href: "#customers", label: "Customers" },

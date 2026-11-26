@@ -1,21 +1,17 @@
 import React from 'react';
-import { BUSINESS, getWhatsAppLink, DEFAULT_QUOTE_MESSAGE, MATERIALS } from '../data/businessData';
+import { BUSINESS, WA_LINK, MATERIALS } from '../data/businessData';
 import { useScrollReveal } from '../hooks/useAnimations';
 import { useLanguage } from '../context/LanguageContext';
-import { useQuoteModal } from '../context/QuoteModalContext';
 import LaserSimulator from './LaserSimulator';
 
 export default function Hero() {
   const [copyRef, copyVisible] = useScrollReveal({ threshold: 0.1 });
   const { t } = useLanguage();
-  const { openQuoteModal } = useQuoteModal();
 
   const tagline = t('hero_tagline', BUSINESS.tagline);
   const headline = t('hero_headline', BUSINESS.headline);
   const description = t('hero_description', BUSINESS.description);
   const waCta = t('hero_whatsapp_cta', 'Send your logo on WhatsApp');
-  const quoteMsg = t('wa_quote_message', DEFAULT_QUOTE_MESSAGE);
-  const waQuoteUrl = getWhatsAppLink(quoteMsg);
   const workCta = t('hero_work_cta', 'See our work');
   const materialsList = t('materials', MATERIALS);
 
@@ -45,13 +41,9 @@ export default function Hero() {
           <div className="cta-row reveal-item" style={{ transitionDelay: '240ms' }}>
             <a
               className="btn primary magnetic-btn"
-              href={waQuoteUrl}
+              href={WA_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              onClick={(e) => {
-                e.preventDefault();
-                openQuoteModal();
-              }}
             >
               {waCta}
             </a>

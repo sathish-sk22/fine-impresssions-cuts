@@ -351,7 +351,7 @@ export default function LaserMarkingPage() {
               Drop off your test batch or send drawing dimensions on WhatsApp. We offer immediate sample trials, confirmation of mark contrast, and quick job work turnaround.
             </p>
             <p className="sp-cta-address">
-              📍 <strong>Workshop:</strong> {BUSINESS.address}
+              <strong>Workshop:</strong> {BUSINESS.address}
             </p>
           </div>
           <div className="sp-cta-actions">

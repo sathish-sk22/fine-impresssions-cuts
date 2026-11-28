@@ -123,7 +123,6 @@ export default function LeatherEmbossingPage() {
                   rel="noopener noreferrer"
                   className="btn btn-primary sp-cta-btn"
                 >
-                  <span className="btn-icon">⚡</span>
                   Request Leather Embossing Quote on WhatsApp
                 </a>
                 <a href="#samples" className="btn btn-secondary">
@@ -132,7 +131,7 @@ export default function LeatherEmbossingPage() {
               </div>
 
               <div className="sp-location-note">
-                <span>📍 Centrally located in Mannurpet, Padi, Chennai &bull; Direct support for Ambur, Ranipet &amp; Chennai export clusters</span>
+                <span>Centrally located in Mannurpet, Padi, Chennai &bull; Direct support for Ambur, Ranipet &amp; Chennai export clusters</span>
               </div>
             </div>
 
@@ -187,21 +186,18 @@ export default function LeatherEmbossingPage() {
 
           <div className="sp-three-col-grid">
             <div className="sp-feature-card">
-              <div className="sp-feature-icon">✨</div>
               <h3>Deep Tactile Blind Debossing</h3>
               <p>
                 Our brass dies are machined with controlled draft tapers and depth stops that depress the leather surface smoothly, locking the grain fibers into a rich, permanent contrast that never rebounds over decades of daily product use.
               </p>
             </div>
             <div className="sp-feature-card">
-              <div className="sp-feature-icon">🌟</div>
               <h3>Precision Hot-Foil Stamping</h3>
               <p>
                 Engineered with mirror-polished faces and razor-sharp typographic perimeter walls, our dies transfer gold, silver, metallic copper, and matte colored foils with zero feathering, no foil flaking, and immaculate edge definition.
               </p>
             </div>
             <div className="sp-feature-card">
-              <div className="sp-feature-icon">👞</div>
               <h3>Shoe Component Dies &amp; Insoles</h3>
               <p>
                 From shoe upper logo emblems and heel collar accents to size-run insole stamps and tongue badges, we fabricate matched sets that fit standard European and American footwear press platen setups.
@@ -291,17 +287,14 @@ export default function LeatherEmbossingPage() {
 
           <div className="sp-three-col-grid">
             <div className="sp-feature-card">
-              <div className="sp-feature-icon">👠</div>
               <h3>Footwear &amp; Shoe Manufacturing</h3>
               <p>Branded insoles, sockliner gold stamping, quarter logo embossing, tongue patches, and outsole rubber mould inserts for leather formal shoes, sneakers, and safety boots.</p>
             </div>
             <div className="sp-feature-card">
-              <div className="sp-feature-icon">💼</div>
               <h3>Wallets, Bags &amp; Small Leather Goods</h3>
               <p>Cardholder slots, wallet exterior crests, handbag hangtags, passport case monogramming, and luggage label embossing with crisp corner geometry.</p>
             </div>
             <div className="sp-feature-card">
-              <div className="sp-feature-icon">📒</div>
               <h3>Corporate Diaries &amp; Premium Gifts</h3>
               <p>Hardcover PU/leather journal debossing, custom corporate logo stamping, menu folders for luxury hotels, and desk accessory branding in bulk volumes.</p>
             </div>
@@ -388,21 +381,18 @@ export default function LeatherEmbossingPage() {
 
           <div className="sp-related-grid">
             <Link to="/cnc-engraving" className="sp-related-card">
-              <div className="sp-related-icon">⚙️</div>
               <h4>CNC Engraving Services</h4>
               <p>Steel cutting dies, punch sets, and 2D/3D precision tooling machined for footwear, automotive, and industrial manufacturing.</p>
               <span className="sp-related-link">Explore CNC Engraving &rarr;</span>
             </Link>
 
             <Link to="/metal-engraving" className="sp-related-card">
-              <div className="sp-related-icon">✨</div>
               <h4>Metal Engraving Services</h4>
               <p>Precision deep metal engraving on brass, stainless steel, and aluminium for industrial equipment nameplates and dies.</p>
               <span className="sp-related-link">Explore Metal Engraving &rarr;</span>
             </Link>
 
             <Link to="/laser-marking" className="sp-related-card">
-              <div className="sp-related-icon">⚡</div>
               <h4>Industrial Laser Marking</h4>
               <p>High-contrast permanent fiber laser marking of serial numbers, QR codes, and barcodes on industrial metals and plastics.</p>
               <span className="sp-related-link">Explore Laser Marking &rarr;</span>

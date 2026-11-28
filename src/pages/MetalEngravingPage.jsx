@@ -123,7 +123,6 @@ export default function MetalEngravingPage() {
                   rel="noopener noreferrer"
                   className="btn btn-primary sp-cta-btn"
                 >
-                  <span className="btn-icon">⚡</span>
                   Request Metal Engraving Quote on WhatsApp
                 </a>
                 <a href="#samples" className="btn btn-secondary">
@@ -132,7 +131,7 @@ export default function MetalEngravingPage() {
               </div>
 
               <div className="sp-location-note">
-                <span>📍 Workshop located at Mannurpet, Padi industrial corridor, Chennai 600058</span>
+                <span>Workshop located at Mannurpet, Padi industrial corridor, Chennai 600058</span>
               </div>
             </div>
 
@@ -187,21 +186,18 @@ export default function MetalEngravingPage() {
 
           <div className="sp-three-col-grid">
             <div className="sp-feature-card">
-              <div className="sp-feature-icon">✨</div>
               <h3>Deep Cavity Relief &amp; Stamping Dies</h3>
               <p>
                 Unlike shallow marks that fade over time, our deep metal engraving removes base metal to substantial depths (0.5 mm to 8 mm+), creating robust masculine and feminine die sets for heat embossing, foil stamping, bookbinding, and leather pressing.
               </p>
             </div>
             <div className="sp-feature-card">
-              <div className="sp-feature-icon">🛡️</div>
               <h3>Chemical &amp; Weatherproof SS Nameplates</h3>
               <p>
                 Industrial machinery operating in harsh coastal Chennai and factory environments requires permanent identification. We deep-engrave SS304 and SS316 stainless steel plaques, filled with chemical-resistant industrial enamel, impervious to solvents and oils.
               </p>
             </div>
             <div className="sp-feature-card">
-              <div className="sp-feature-icon">📐</div>
               <h3>Calibrated Dials &amp; Control Bezels</h3>
               <p>
                 We mill precision vernier scales, degree graduations, index rings, and control panel bezels on circular and flat brass or aluminium components with micro-meter step resolution and zero burr accumulation.
@@ -415,21 +411,18 @@ export default function MetalEngravingPage() {
 
           <div className="sp-related-grid">
             <Link to="/cnc-engraving" className="sp-related-card">
-              <div className="sp-related-icon">⚙️</div>
               <h4>CNC Engraving Services</h4>
               <p>2D &amp; 3D sculpted CNC cutting dies, punch sets, and custom industrial moulds engineered in tool steel and brass.</p>
               <span className="sp-related-link">Explore CNC Engraving &rarr;</span>
             </Link>
 
             <Link to="/laser-marking" className="sp-related-card">
-              <div className="sp-related-icon">⚡</div>
               <h4>Industrial Laser Marking</h4>
               <p>Fiber laser surface annealing, permanent serial numbers, QR codes, and logos on finished metal and polymer parts.</p>
               <span className="sp-related-link">Explore Laser Marking &rarr;</span>
             </Link>
 
             <Link to="/leather-embossing" className="sp-related-card">
-              <div className="sp-related-icon">👞</div>
               <h4>Leather Embossing &amp; Stamping</h4>
               <p>Custom brass embossing dies, debossing plates, and hot-foil stamping blocks for shoes, wallets, and luxury leather goods.</p>
               <span className="sp-related-link">Explore Leather Embossing &rarr;</span>

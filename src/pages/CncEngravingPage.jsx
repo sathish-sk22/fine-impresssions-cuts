@@ -351,7 +351,7 @@ export default function CncEngravingPage() {
               Send us your drawing or design on WhatsApp. We confirm dimensions, material choice, and deliver an accurate price and lead-time quotation within hours.
             </p>
             <p className="sp-cta-address">
-              📍 <strong>Workshop:</strong> {BUSINESS.address}
+              <strong>Workshop:</strong> {BUSINESS.address}
             </p>
           </div>
           <div className="sp-cta-actions">
